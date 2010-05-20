@@ -1,0 +1,16 @@
+<h1>Pusher Example on Rails</h1>
+
+<% form_remote_tag(:url => { :controller => 'chat', :action => :add_line } ) do -%>
+  Name: <%= text_field_tag( 'name','', { :size => 20, :id => 'name', :class => "input"} ) %>
+  Message: <%= text_field_tag( 'entry','', { :size => 70, :id => 'entry', :class => "input"} ) %>
+  <%= submit_tag "Say Something", :class => "common_button" %>
+<% end -%>
+
+<br />
+
+<div id="chat_window" class="bordered">
+	<ul id="chat_list">
+	</ul>
+</div>
+
+<p style="font-size:1.2em;">Source is available <%= link_to "here", "http://github.com/phuphighter/pusher_app_example", :target => "_blank", :style => "text-decoration:underline;font-weight:bold;" %></p>

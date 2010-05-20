@@ -1,0 +1,6 @@
+log/*.log
+tmp/**/*
+.DS_Store
+*~
+config/initializers/pusher.rb
+config/layouts/chat.html.erb
