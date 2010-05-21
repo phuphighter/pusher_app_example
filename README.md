@@ -2,17 +2,14 @@
   
 A Ruby on Rails example of a chat room using [Pusher](http://pusherapp.com)
 
-# Installation
-
-Get the pusher gem
-    
-    sudo gem install pusher
-
 # Dependencies
 
 Rails 2.3.5
 
 [Pusher Gem](http://rubygems.org/gems/pusher)
+
+[web-socket-js](http://github.com/gimite/web-socket-js)
+
 
 # Sign up for PusherApp
 
