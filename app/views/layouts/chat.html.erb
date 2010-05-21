@@ -11,11 +11,11 @@
   <script src="http://js.pusherapp.com/1.2/pusher.min.js"></script>	
   <script>
     WebSocket.__swfLocation = "/javascripts/web-socket-js/WebSocketMain.swf";
-    var socket = new Pusher("your_app_id", "chat");
+    var socket = new Pusher("c71318609c916fd35c59", "chat");
   </script>
 		
 	<% javascript_tag do -%>
-	    var server = new Pusher('your_app_id', 'chat')
+	    var server = new Pusher('c71318609c916fd35c59', 'chat')
 	
   	server.bind('add_line', function(line) {
         Element.insert("chat_list", { top: line.name+": "+line.entry+"<br />" })
