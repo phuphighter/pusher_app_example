@@ -15,6 +15,8 @@ Rails 2.3.5
 
 Sign up for [Pusher](http://app.pusherapp.com/signup) to get an API key.
 
+Replace app_id in app/layouts/chat.html.erb and replace security credentials in config/initializers/pusher.rb
+
 # Live Demo
 
 [http://pusherexample.phulogy.com](http://pusherexample.phulogy.com)
