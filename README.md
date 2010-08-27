@@ -8,9 +8,6 @@ Rails 2.3.5
 
 [Pusher Gem](http://rubygems.org/gems/pusher)
 
-[web-socket-js](http://github.com/gimite/web-socket-js)
-
-
 # Sign up for PusherApp
 
 Sign up for [Pusher](http://app.pusherapp.com/signup) to get an API key.
