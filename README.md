@@ -16,7 +16,7 @@ Replace app_id in app/layouts/chat.html.erb and replace security credentials in 
 
 # Live Demo
 
-[http://pusherappexample.phulogy.com](http://pusherappexample.phulogy.com)
+[http://pusherappexample.heroku.com](http://pusherappexample.heroku.com)
 
 ## Copyright
 
