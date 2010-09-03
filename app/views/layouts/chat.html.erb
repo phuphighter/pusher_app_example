@@ -11,7 +11,7 @@
   <script src="http://js.pusherapp.com/1.5/pusher.min.js"></script>	
 
   <% javascript_tag do -%>
-      var server = new Pusher('c71318609c916fd35c59', 'chat')
+      var server = new Pusher('yourpusherkey', 'chat')
 
   	server.bind('add_line', function(line) {
         Element.insert("chat_list", { top: line.name+": "+line.entry+"<br />" })
